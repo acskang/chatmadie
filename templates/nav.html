@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-dark bg-inverse navbar-full">
 
-  <a class="navbar-brand" href="{% url 'main' %}">
+  <a class="navbar-brand" href="{% url '챗뷰' %}">
     <img src="{% static 'img/chatterbot.png' %}" width="30" height="30" class="d-inline-block align-top" alt="ChatterBot">
     ChatterBot
   </a>
@@ -18,7 +18,7 @@
 
   <ul class="nav navbar-nav float-xs-right">
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'chatterbot' %}">API</a>
+      <a class="nav-link" href="{% url 'chatAPI' %}">API</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="{% url 'admin:index' %}">Admin</a>
